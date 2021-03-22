@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 1.6vw;
+    font-size: 16px;
 }
 
 /* BACKGROUND HOMEPAGE */
@@ -27,26 +27,26 @@ body {
 
 .logoheader {
     color: white!important;
-    font-size: 240%;
-    line-height: 130%;
+    font-size: 2.4em;
+    line-height: 1.25em;
 }
 
 /* FOOTER */
 
 .footer p {
-    font-size: 70%;
+    font-size: 0.8em;
 }
 
 .footer h2 {
-    font-size: 110%;
+    font-size: 1.2em;
 }
 
 .footer i {
-    font-size: 140%;
+    font-size: 1.4em;
 }
 
 .footer span {
-    font-size: 140%;
+    font-size: 1.4em;
 }
 
 /* CONTENT HOME */
@@ -57,12 +57,12 @@ body {
 
 .homecontent h1 {
     font-weight: 700;
-    font-size: 220%;
+    font-size: 2.2em;
 }
 
 .homecontent h2 {
     font-weight: 500;
-    font-size: 100%;
+    font-size: 1.2em;
 }
 
 .down {
@@ -74,7 +74,7 @@ body {
 }
 
 .bi {
-    font-size: 140%;
+    font-size: 1.4em;
 }
 
 .content {
@@ -82,12 +82,13 @@ body {
 }
 
 /* TXT STYLING */
+
 .txt h3 {
     font-weight: 500;
-    font-size: 180%;
+    font-size: 1.8em;
 }
 
-.txt a{
+.txt a {
     text-decoration: underline!important;
 }
 
@@ -95,9 +96,6 @@ body {
 
 @media (max-width: 768px) {
     /* HEADER */
-    .header a {
-        font-size: 220%;
-    }
     .logoheader {
         margin: 1vh 0;
     }
@@ -105,11 +103,7 @@ body {
     .footer {
         text-align: center;
     }
-    .footer p {
-        font-size: 160%;
-    }
     .footer h2 {
-        font-size: 190%;
         margin-bottom: 0.3vh;
     }
     .footermobile {
@@ -118,28 +112,11 @@ body {
     .content {
         padding-bottom: 0.2vh;
     }
-    /* CONTENT HOMEPAGE */
-    .homecontent h1 {
-        font-size: 440%;
-    }
-    .homecontent h2 {
-        font-size: 240%;
-    }
-    .bi {
-        font-size: 360%;
-    }
-    .txt h3 {
-        font-size: 380%;
-    }
-    /* TXT STYLING */
-    .txt p {
-        font-size: 190%;
-    }
     /* MOBILE MARGINS */
     .mt-5 {
         margin-top: 4vh!important;
     }
-    .mb-5{
+    .mb-5 {
         margin-bottom: 2.4vh!important;
     }
 }
@@ -148,20 +125,7 @@ body {
 
 @media (max-width: 992px) and (min-width:767px) and (orientation: portrait) {
     /* HEADER */
-    .header a {
-        font-size: 220%;
-    }
     .content {
         padding-bottom: 0vh;
-    }
-    /* CONTENT HOMEPAGE */
-    .homecontent h1 {
-        font-size: 340%;
-    }
-    .homecontent h2 {
-        font-size: 190%;
-    }
-    .bi-chevron-down {
-        font-size: 240%;
     }
 }
