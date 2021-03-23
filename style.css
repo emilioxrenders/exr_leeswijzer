@@ -90,11 +90,20 @@ body {
 
 .txt a {
     text-decoration: underline!important;
+    color: #000;
 }
 
 /* RESPONSIVE MOBILE */
 
 @media (max-width: 768px) {
+    /* BACKGROUND HOMEPAGE */
+    .homebackground {
+        background-image: url(pictures/background2.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
     /* HEADER */
     .logoheader {
         margin: 1vh 0;
