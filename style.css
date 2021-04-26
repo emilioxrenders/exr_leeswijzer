@@ -2,16 +2,39 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.8rem;
 }
 
-/* BACKGROUND HOMEPAGE */
+/* ALGEMEEN */
 
-.homebackground {
-    background-image: url(pictures/background.png);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+#page {
+    width: 70%;
+    background-color: #fff;
+}
+
+.background {
+    padding: 6rem;
+    box-shadow: 0px 3px 6px rgb(156, 156, 156);
+}
+
+.headerpaddinghome {
+    padding-top: 5.2rem;
+}
+
+.headerpaddingbewijs {
+    padding-top: 4rem;
+}
+
+.marginbottom {
+    margin-bottom: 12vh;
+}
+
+.margintop {
+    margin-top: 12vh;
+}
+
+#hyperlink {
+    color: blue;
 }
 
 /* HEADER */
@@ -65,19 +88,6 @@ body {
     font-size: 1.2em;
 }
 
-.down {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 10vh;
-    color: white;
-}
-
-.bi {
-    font-size: 1.4em;
-    cursor: pointer;
-}
-
 .content {
     padding-bottom: 6vh;
 }
@@ -85,26 +95,30 @@ body {
 /* TXT STYLING */
 
 .txt h3 {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.txt h4 {
+    font-weight: 600;
+    font-size: 1.4em;
 }
 
 .txt a {
-    text-decoration: underline!important;
-    color: #000;
+    /* text-decoration: underline!important;
+    color: #000; */
+    color: blue;
+}
+
+.bewijslast p {
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 /* RESPONSIVE MOBILE */
 
 @media (max-width: 768px) {
-    /* BACKGROUND HOMEPAGE */
-    .homebackground {
-        background-image: url(pictures/background2.png);
-        height: 100vh;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
     /* HEADER */
     .logoheader {
         margin: 1vh 0;

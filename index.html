@@ -31,8 +31,7 @@
 
 
 <!-- HEADER -->
-<div class="homebackground">
-    <div class="header">
+    <div class="header fixed-top">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-2 col-4">
@@ -52,8 +51,8 @@
 
 
     <!-- CONTENT HOME -->
-    <div class="container" data-aos="fade-up">
-        <div class="row homecontent d-flex justify-content-center text-center">
+    <div class="container headerpaddinghome" data-aos="fade-up">
+        <div class="row homecontent d-flex justify-content-center text-center marginbottom">
             <div class="col-md-12 mb-3">
                 <h1>Leeswijzer</h1>
             </div>
@@ -62,38 +61,115 @@
                 <h2>384125</h2>
             </div>
         </div>
+        <hr>
     </div>
-    
-    <div class="down d-flex justify-content-center">
-        <a onClick="document.getElementById('scroll').scrollIntoView({behavior: 'smooth'});"><i class="bi bi-chevron-down"></i></a>
-    </div>
-</div>
 
 
 <!-- CONTENT TXT -->
-<div data-aos="fade-up" class="container mt-5 content" id="scroll">
-    <div class="row txt mb-4">
-        <div class="mb-5">
-            <h3 class="mb-2">Introductie</h3>
+<div data-aos="fade-up" class="container margintop content" id="page">
+    <div class="row txt mb-4 ">
+        <div class="marginbottom background">
+            <h3 class="mb-3">Introductie</h3>
+            <p>NC-Websites is een bedrijf wat zich bezighoud met websites, webshops, social media en online campagnes. Het is een
+            relatief klein bedrijf met 12 medewerkers gevestigd in Winschoten. Naast dat NC-Websites grote complexe websites maakt
+            voor grote bedrijven, werken ze ook samen met kleine locale ondernemers die een simpele website nodig hebben.</p>
+            <p>NC-Websites heeft momenteel een groep met klanten waarvan de websites erg verouderd zijn. De websites zijn visueel niet
+            meer modern en zijn gebaseerd op oude programmeertalen. Ook op het gebied van gebruiksvriendelijkheid zijn er nog veel
+            verbeterpunten.</p>
             <p>Deze stageopdracht zal gaan over onderzoek verrichten naar hoe de klant het beste zijn website kan vernieuwen en hier
             een advies over geven. Op basis van dit advies zal ik de verouderde website opnieuw ontwerpen met oog op de actualiteit
             en deze te realiseren tot volwaardige website welke opgeleverd kan worden aan de klant.</p>
-            <!-- <p>De website zal geprogrammeerd worden met actuele programmeertalen en een vernieuwd CMS van het stagebedrijf. Binnen de
-            eerste 8 weken heb ik daarom voornamelijk mijn tijd gestoken in het CMS leren en ervaring opdoen met Bootstrap. Dit heb
-            ik gedaan door een aantal al ontworpen websites te programmeren met het CMS en Bootstrap.</p> -->
             <p>De website zal geprogrammeerd worden met actuele programmeertalen en een vernieuwd CMS van het stagebedrijf. De eerste
-            weken heb ik een aantal websites geprogrammeerd met het oude CMS wat gebruik maakt van een oude versie van Bootstrap.</p>
-            <p>Gedurende de laatste weken van de introductieperiode heb ik een websites geprogrammeerd met het nieuwe CMS wat gebruik
-            maakt van de nieuwe versie van Bootstrap. Door zowel het oude CMS als het nieuwe CMS te leren weet ik hoe de oude
-            websites in elkaar zitten en wat er mogelijk is voor de vernieuwde websites.</p>
+            weken heb ik een aantal websites geprogrammeerd met het oude CMS wat gebruik maakt van een oude versie van Bootstrap. Ik
+            heb de <a id="hyperlink" href="https://office.nc-websites.nl/emiliocms/" target="_blank">landingspagina van Chakka</a> 
+            geprogrammeerd en de <a id="hyperlink" href="https://www.yachtchartertuil.nl" target="_blank">website van Tuilboten</a>, welke tijdens deze periode online is gegaan
+            voor de klant.</p>
+            <p>Gedurende de laatste weken van de introductieperiode heb ik de <a id="hyperlink" href="https://office7.nc-websites.nl/sportdietistlehmann/" target="_blank">website van Diëtist Lehmann</a> geprogrammeerd met het nieuwe
+            CMS wat gebruik maakt van de nieuwe versie van Bootstrap. Door zowel het oude CMS als het nieuwe CMS te leren weet ik
+            hoe de oude websites in elkaar zitten en wat er mogelijk is voor de vernieuwde websites.</p>
             <p>Tijdens de schooldagen ben ik bezig geweest met de nieuwste versie van Bootstrap leren en kennis opdoen over andere
-            actuele front-end technieken, zoals bijvoorbeeld animaties.</p>
+            actuele front-end technieken, zoals bijvoorbeeld animaties. Deze kennis heb ik opgedaan doormiddel van een <a id="hyperlink" href="https://emilioxrenders.github.io" target="_blank">portfolio
+            website</a> te programmeren.</p>
+        </div>
+
+        <div class="background">
+        <div class="mb-5">
+            <h3 class="mb-3">Opdrachtbeschrijving</h3>
+            <p>Passe Partout is een oude klant van NC-Websites die ontevreden was met hun website. De ontevredenheid kwam vanuit het
+            oude design van de website en te weinig controle binnen het oude CMS van NC-Websites. Er is hieruit besloten om de
+            website van Passe Partout opnieuw te ontwerpen en ontwikkelen binnen het nieuwe CMS.</p>
+            <p>Tijdens de opdracht moet er niet alleen gekeken worden naar de website, maar ook naar het nieuwe CMS. Met de klant moet
+            er gekeken worden waar de wensen liggen van beheerfuncties in het nieuwe CMS. Tijdens dit proces zal er wel afwegingen
+            gemaakt moeten worden over beheerfuncties die alleen nuttig zijn voor Passe Partout en beheerfuncties die nuttig zijn
+            voor de rest van de klanten van NC-Websites.</p>
+            <p>Dit project zal gebruik maken van de double diamond methodiek. Dit betekend dat ik binnen 4 fases heb gewerkt, namelijk:
+            <ul class="mb-4"><li>Discover fase</li>
+            <li>Define fase</li>
+            <li>Develop fase</li>
+            <li>Deliver fase</li></ul></p>
+            <p>Het doel van deze methode is om veel te divergeren en convergeren. Als eerst om de probleemstelling zo duidelijk
+            mogelijk in kaart te hebben, en als tweede om een geschikte oplossing te kunnen vinden voor de probleemstelling.</p>
+        </div>
+
+        <div class="mb-5">
+            <h4 class="mb-3">Onderzoeksvraag</h4>
+            <p>Hoe kan er voor Passe Partout een vernieuwde website aangeboden worden met de focus op een nieuwe gebruikerservaring?</p>
+        </div>
+
+        <div class="mb-5">
+            <h4 class="mb-3">Uit de onderzoeksvraag zijn de volgende deelvragen gekomen:</h4>
+            <p><ul><li>Waarom zou de klant een vernieuwde website willen?</li>
+            <li>Wat houdt een vernieuwde website in?</li>
+            <li>Wat houdt een nieuwe gebruikservaring in?</li>
+            <li>Hoe houdt je focus op een nieuwe gebruikerservaring?</li>
+            <li>Welke rol speelt het nieuwe CMS in een nieuwe gebruikerservaring?</li></ul></p>
+        </div>
+
+        <div class="mb-5">
+            <h4 class="mb-3">Discover</h4>
+            <p>Om de opdracht duidelijk te krijgen voor mijzelf en voor NC-Websites heb ik een <a id="hyperlink" href="leeruitkomst6/PID_emiliorendersv5.pdf" target="_blank">Project Initiatie Document opgesteld</a>.
+            Binnen dit document is het project gedefinieerd, beschreven welke producten er geleverd gaan worden en een voorlopige
+            planning opgesteld.</p>
+        </div>
+
+        <div class="mb-5">
+            <h4 class="mb-3">Define</h4>
+            <p>Om de doelgroep beter in kaart te brengen heb ik een analyse verricht naar de doelgroep die bestaat uit meerdere
+            producten. Als eerste heb ik een <a id="hyperlink" href="leeruitkomst1/doelgroepanalyse.pdf" target="_blank">doelgroep analyse</a> verricht om erachter te komen voor wie de website ontworpen moet
+            worden. De conclusie hieruit is dat de doelgroep waar de focus op gelegd word volwassenen uit provincie Groningen met
+            een leeftijd van 28 t/m 55 jaar zijn.</p>
+            <p>Vervolgens is er om een beter inzicht te krijgen over de doelgroep een <a id="hyperlink" href="leeruitkomst1/empathy_map.pdf" target="_blank">empathy map</a> opgesteld. De meest interessante
+            bevinding die hieruit kwam is dat een bowlingbaan concurreert met een hoop verschillende uitjes.</p>
+            <p>Om een beter beeld te schetsen van welke personen er binnen de doelgroep passen en met wie er rekening gehouden moet
+            worden tijdens het ontwerp proces zijn er <a id="hyperlink" href="leeruitkomst1/personas.pdf" target="_blank">persona’s</a> opgesteld. Het meest interessante wat hieruit kwam is dat elke
+            persoon binnen de doelgroep een leuke dag zoekt met mensen die veel voor hun betekenen.</p>
+            <p>Als laatste stap binnen de analyse van de doelgroep is er gekeken naar hoe de doelgroep het proces van een reservering
+            doorgaat doormiddel van een <a id="hyperlink" href="leeruitkomst1/journey_map.pdf" target="_blank">Journey Map</a>. Hieruit heb ik geleerd dat de overweging van de klant hem voornamelijk zit in
+            praktische informatie. Deze praktische informatie is dus erg belangrijk om goed vindbaar te maken binnen de vernieuwde
+            website.</p>
+            <p>Om achter de wensen van de doelgroep te komen zijn er <a id="hyperlink" href="leeruitkomst1/interview_doelgroep.pdf" target="_blank">interviews</a> afgenomen via Google forms. De belangrijkste conclusie
+            is dat praktische zaken en sfeer erg belangrijk zijn om duidelijk naar voren te brengen in de vernieuwde website.</p>
+            <p>Om te kijken wat de concurrentie is van Passe Partout heb ik een <a id="hyperlink" href="leeruitkomst1/concurrentie_analysev2.pdf" target="_blank">concurrentie analyse</a> verricht. Hierbinnen is gekeken
+            naar regionale concurrentie, zoals indoor activiteiten en naar verschillende websites van concurrerende bowlingbanen. De
+            belangrijkste conclusie hieruit is dat Passe Partout zich goed kan differentiëren van de concurrentie door de Unique
+            Selling Points die ze hebben samen met de sfeer van de bowlingbaan te verwerken in de website.</p>
+            <p>Om te bepalen welke technologie het beste gebruikt kan worden binnen de ontwikkeling van de nieuwe website is er een
+            <a id="hyperlink" href="leeruitkomst1/technologie_verantwoording.pdf" target="_blank">technische verantwoording</a> opgesteld. Uit deze verantwoording is gekomen dat de website geprogrammeerd gaat worden met
+            het nieuwe bedrijfseigen CMS, Jquery indien nodig en de nieuwe versie van Bootstrap.</p>
+            <p>Om de informatie van de analyse over te dragen aan Passe Partout is er een <a id="hyperlink" href="leeruitkomst1/Userstories.pdf" target="_blank">adviesrapport</a> opgesteld. Binnen dit rapport
+            wordt er beschreven wat er gedaan is en wat de belangrijkste punten hieruit zijn.</p>
+            <p>Om te bepalen aan welke eisen het ontwerp moet voldoen zijn er <a id="hyperlink" href="leeruitkomst2/adviesrapport.pdf" target="_blank">user stories</a> opgesteld en hier requirements aan
+            gekoppeld.</p>
         </div>
 
         <div>
-            <h3 class="mb-2">Opdrachtbeschrijving</h3>
-            <p>Hier komt nog tekst</p>
+            <h4 class="mb-3">Develop</h4>
+            <p>Op basis van de informatie die uit de define fase is verkregen heb ik wireframes opgesteld voor de landingspagina van de
+            vernieuwde website. Deze wireframes zijn zowel voor <a id="hyperlink" href="leeruitkomst1/wireframe_land_desktop.pdf" target="_blank">desktop</a> als voor <a id="hyperlink" href="leeruitkomst1/wireframe_land_mobile.pdf" target="_blank">mobiel</a> gemaakt.</p>
+            <p>Op basis van deze wireframes is er een eerste iteratie opgezet van het XD-ontwerp, voor zowel <a id="hyperlink" href="leeruitkomst1/Prototype_desktop.pdf" target="_blank">desktop</a> als <a id="hyperlink" href="leeruitkomst1/Prototype_mobile.pdf" target="_blank">mobiel</a>. Het
+            XD-ontwerp is getest aan een set <a id="hyperlink">design principles</a> van Jakob Nielsen.</p>
         </div>
+    </div>
     </div>
 </div>
 
