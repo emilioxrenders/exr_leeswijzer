@@ -119,6 +119,13 @@ body {
 /* RESPONSIVE MOBILE */
 
 @media (max-width: 768px) {
+    /* ALGEMEEN */
+    #page {
+        width: 90%;
+    }
+    .background {
+        padding: 2rem;
+    }
     /* HEADER */
     .logoheader {
         margin: 1vh 0;
@@ -136,6 +143,13 @@ body {
     }
     .content {
         padding-bottom: 0.2vh;
+    }
+    /* TXT STYLING */
+    .txt h3 {
+        font-size: 1.5em;
+    }
+    .txt h4 {
+        font-size: 1.3em;
     }
     /* MOBILE MARGINS */
     .mt-5 {
